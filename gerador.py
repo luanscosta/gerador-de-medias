@@ -96,7 +96,7 @@ def cadastrar_aluno(dados):
         print("⚠️ Escolha inválida.\n")
         return
 
-    serie = input("Digite a série do aluno (ex: 7A, 8B, 9C): ").strip()
+    serie = input("Digite a série do aluno (ex: 7A, 8B, 9C): ").strip().capitalize()
     nome = input("Digite o nome do aluno: ").strip()
 
     while True:
